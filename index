@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-eqiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Personal Portfolio Website | Lakshaya Sharma</title>
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- box icons -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <!-- custom css -->
+</head>
+
+<body>
+    <header class="header">
+        <a href="#" class="logo">Portfolio</a>
+
+        <i class='bx bx-menu' id="menu-icon" ></i>
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#portfolio">Portfolio</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <!--home section design-->
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3>Hello, I'm</h3>
+            <h1>Lakshaya Sharma</h1>
+            <h3>And I'm a <span>software developer</span></h3>
+            <p>"Hi, I'm Lakshaya Sharma, a software developer specializing in web development, mobile app development
+                . I have experience in C++ with Data Structures and Algorithm and html,css,JavaScript,
+                 and I enjoy creating innovative solutions to complex problems."</p>
+            <div class="social-media">
+                <a href="https://github.com/Lakshaya2207"><i class='bx bxl-github'></i></a>
+                <a href="https://www.instagram.com/lakshaya1922/"><i class='bx bxl-instagram'></i></a>
+                <a href="https://www.linkedin.com/in/lakshayasharma/"><i class='bx bxl-linkedin'></i></a>
+            </div>
+            <a href="#" class="btn">Download CV</a>
+        </div>
+
+        <div class="home-img">
+            <img src="c:\Users\91931\Pictures\laks.jpg"" alt="">
+    </section>
+            
+        
+        </div>
+    </section>
+    <!--about section origin-->
+    <section class="about" id="about">
+        <div class = "about.img">
+            <img src="c:\Users\91931\Downloads\me.jpg" alt="">
+        </div>
+
+        <div class="about-content">
+            <h2 class="heading">about <span>Me</span></h2>
+            <h3>Software Developer</h3>
+            <p>Hi, I'm Lakshaya Sharma, a software developer specializing in web development, mobile app development
+                . I have experience in C++ with Data Structures and Algorithm and html,css,JavaScript,
+                 and I enjoy creating innovative solutions to complex problems."
+
+            </p>
+            <a href="#" class="btn"> read more</a>
+        </div>
+    </section>
+    <!--portfolio section design-->
+    <section class ="portfolio" id="portfolio">
+        <h2 class="heading">latest <span>Project</span></h2>
+
+        <div class="porfolio-container">
+            <div class="portfolio-box">
+                <img src=" c:\Users\91931\Downloads\download.jpg" alt="">
+                <div class="portfolio-layer">
+                    <h4>Cricket alert</h4>
+                    <p>The objective of the project is to display live cricket score alerts in  python. In this project, live cricket data is fetched from the network and it will be shown in our project. You’ll get all the live match details from this project like team name, live score, location, time.
+                    </p>
+                    <a href="#"><i class='bx bx-link-external'></i></a>
+
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <img src="c:\Users\91931\Downloads\rms.jpg" alt="">
+                <div class="portfolio-layer">
+                    <h4>Restaurant management system</h4>
+                    <p>In the modern restaurant industry, delivering exceptional dining experiences requires more than just good cuisine. Restaurant Management Systems have emerged as the secret ingredient for efficient operations and customer satisfaction. In this article, we are going to design a restaurant management system where users can effortlessly discover nearby restaurants.
+                    </p>
+                    <a href="#"><i class='bx bx-link-external'></i></a>
+
+                </div>
+            </div>    
+    
+            <div class="portfolio-box">
+                <img src="c:\Users\91931\Downloads\wms.jpg" alt="">
+                <div class="portfolio-layer">
+                    <h4>Weather Monitoring System</h4>
+                    <p>An AI interview website built with Next.js offers an intuitive platform for job seekers to practice
+                     and enhance their interview skills through interactive AI-driven mock interviews, personalized feedback,
+                      and real-time analytics.
+                    </p>
+                    <a href="#"><i class='bx bx-link-external'></i></a>
+
+                </div>
+            </div>
+        
+        </div>
+
+
+    </section>
+    <!--contact section design-->
+    <section class="contact" id="contact">
+        <h2 class="heading">Contact<span>me!!</span></h2>
+        <form action="#">
+           
+            <div class="input-box">
+                <input type="text"placeholder="full name">
+                <input type="email"placeholder="email address">
+               
+
+            </div>
+            <div class="input-box">
+                <input type="number"placeholder="Mobile Number">
+                <input type="text"placeholder="email subject">
+            </div>
+            <textarea name=""  id=""  cols="30" rows="10" placeholder="your message"></textarea>
+            <input type="submit" value="send message" class="btn">
+            
+        </form>
+    </section>
+    
+    <!--footer design-->
+    <footer class="footer">
+        <div class = "footer-text">
+            <p>Copyright &copy; 2024 by Piyush Dwivedi | All Rights Reserved.</p>
+        </div>
+
+        <div class="footer-iconTop">
+            <a href="#home"><i class='bx bx-up-arrow-alt'></i></a>
+        </div>
+    </footer>
+    <sript src="js/script.js"></sript>
+</body>
+</html>
